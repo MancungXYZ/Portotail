@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.navbar-fixed {
+  @apply fixed z-[9999] bg-white bg-opacity-80
+  backdrop-blur-sm bg-white/30
+  drop-shadow-md
+}
+
+.hambuger-active > span:nth-child(1) {
+  @apply rotate-45
+}
+.hambuger-active > span:nth-child(2) {
+  @apply scale-0
+}
+.hambuger-active > span:nth-child(3) {
+  @apply -rotate-45
+}
