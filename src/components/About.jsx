@@ -13,11 +13,7 @@ function About() {
               Web Developer | IT Programmer
             </h2>
             <p className="font-medium text-base text-slate-500 max-w-xl lg:text-xl">
-            Fresh graduate Teknik Informatika dari Universitas Komputer Indonesia dengan pengalaman 
-magang sebagai web developer. Memiliki dedikasi tinggi untuk belajar dan selalu mencari cara 
-untuk meningkatkan keterampilan teknis dalam dunia pengembangan web yang terus 
-berkembang. Berkomitmen untuk mengembangkan keahlian rekayasa perangkat lunak yang 
-membantu efisiensi organisasi.
+            A junior programmer with internship experience as a web developer. Highly dedicated to learning and always looking for ways to improve technical skills in the ever-evolving world of web development. Committed to developing software engineering skills that help organizational efficiency.
             </p>
           </div>
           <div className="w-full px-4 lg:w-1/2">

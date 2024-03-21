@@ -43,7 +43,7 @@ function Navbar() {
                                 <a href="#about" className='text-lg font-semibold text-slate-900 py-2 mx-8 flex group-hover:text-slate-500'>About Me</a>
                             </li>
                             <li className='group'>
-                                <a href="#portofolio" className='text-lg font-semibold text-slate-900 py-2 mx-8 flex group-hover:text-slate-500'>Projects</a>
+                                <a href="#projects" className='text-lg font-semibold text-slate-900 py-2 mx-8 flex group-hover:text-slate-500'>Projects</a>
                             </li>
                             <li className='group'>
                                 <a href="#contact" className='text-lg font-semibold text-slate-900 py-2 mx-8 flex group-hover:text-slate-500'>Contact</a>
