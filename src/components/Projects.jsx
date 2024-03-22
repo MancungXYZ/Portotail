@@ -15,7 +15,7 @@ function Projects() {
         <div className="w-full px-4 flex flex-wrap justify-center">
           {data.map((item) => (
             <div className="mb-12 p-4 md:w-1/2">
-                <div className="rounded-md shadow-md overflow-hidden">
+                <div className="rounded-md shadow-md overflow-hidden hover:scale-105">
                   <a href={item.live}>
                     <img src={item.img} alt={item.img} width='w-full'/>
                   </a>

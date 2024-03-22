@@ -1,4 +1,5 @@
 import React, { useEffect, useRef } from 'react'
+import { Link, animateScroll as scroll } from "react-scroll";
 
 function Navbar() {
     const myHeader = useRef(null)
@@ -37,16 +38,16 @@ function Navbar() {
                     <nav id='nav-menu' ref={myMenu} className='hidden absolute py-5 bg-white shadow-lg rounded-lg max-w-[250px] w-full right-4 top-full lg:block lg:static lg:bg-transparent lg:max-w-full lg:shadow-none lg:rounded-none'>
                         <ul className='lg:flex'>
                             <li className='group'>
-                                <a href="#hero" className='text-lg font-semibold text-slate-900 py-2 mx-8 flex group-hover:text-slate-500'>Beranda</a>
+                                <Link to='hero' spy={true} smooth={true} offset={50} duration={500} className='cursor-pointer text-lg font-semibold text-slate-900 py-2 mx-8 flex group-hover:text-slate-500'>Home</Link>
                             </li>
                             <li className='group'>
-                                <a href="#about" className='text-lg font-semibold text-slate-900 py-2 mx-8 flex group-hover:text-slate-500'>About Me</a>
+                                <Link to='about' spy={true} smooth={true} offset={50} duration={500} className='cursor-pointer text-lg font-semibold text-slate-900 py-2 mx-8 flex group-hover:text-slate-500'>About</Link>
                             </li>
                             <li className='group'>
-                                <a href="#projects" className='text-lg font-semibold text-slate-900 py-2 mx-8 flex group-hover:text-slate-500'>Projects</a>
+                                <Link to='projects' spy={true} smooth={true} offset={50} duration={500} className='cursor-pointer text-lg font-semibold text-slate-900 py-2 mx-8 flex group-hover:text-slate-500'>Projects</Link>
                             </li>
                             <li className='group'>
-                                <a href="#contact" className='text-lg font-semibold text-slate-900 py-2 mx-8 flex group-hover:text-slate-500'>Contact</a>
+                                <Link to='contact' spy={true} smooth={true} offset={50} duration={500} className='cursor-pointer text-lg font-semibold text-slate-900 py-2 mx-8 flex group-hover:text-slate-500'>Contact</Link>
                             </li>
                         </ul>
                     </nav>
